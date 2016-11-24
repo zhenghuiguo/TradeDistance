@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:td="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/coursedetails_bg"
+    android:orientation="vertical" >
+
+    <com.td.tradedistance.app.widget.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        td:titleBarLeftImage="@drawable/return_top"
+        />
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gostudy_bnt"
+        android:layout_below="@+id/titlebar"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/courseimg_iv"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/lly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="6dp"
+                    android:layout_height="18dp"
+                    android:background="@color/tv_tab_selected" />
+
+                <TextView
+                    android:id="@+id/zhujiajiaoshi_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="主讲教师"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size18" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lly1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/head_iv"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                     />
+
+                <TextView
+                    android:id="@+id/name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/name_color" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_color" />
+
+            <LinearLayout
+                android:id="@+id/lly2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="6dp"
+                    android:layout_height="18dp"
+                    android:background="@color/tv_tab_selected" />
+
+                <TextView
+                    android:id="@+id/coruseJianjia_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="课程简介"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size18" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/jianjiashenglie_tv"
+                style="@style/content_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="marquee"
+                android:maxLines="2"
+                android:text=""
+                android:textColor="@color/jianjia" />
+
+            <LinearLayout
+                android:id="@+id/seemore_lly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center" >
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/course_count_rly_bg"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/coursecount_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/seemore_str"
+                        android:textColor="@color/course_count_color"
+                        android:textSize="@dimen/size12" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_color" />
+
+            <LinearLayout
+                android:id="@+id/lly3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="6dp"
+                    android:layout_height="18dp"
+                    android:background="@color/tv_tab_selected" />
+
+                <TextView
+                    android:id="@+id/zhishijiegou_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="知识结构"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size18" />
+            </LinearLayout>
+
+          <com.td.tradedistance.app.widget.WholeListView
+                android:id="@+id/zhishijiegou_lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:cacheColorHint="@color/transparent"
+                android:divider="@null"
+                android:listSelector="@color/transparent" /> 
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/gostudy_bnt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gostudybutton_bg"
+        android:gravity="center"
+        android:text="@string/gostudy_str"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        android:textSize="@dimen/size18" />
+
+</RelativeLayout>

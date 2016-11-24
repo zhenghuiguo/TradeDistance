@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    
+     >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/zsjg_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/knowledgestructureredicon" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0.3dp"
+            android:layout_height="20dp"
+            android:background="@color/divider_color" 
+            android:layout_marginTop="14dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="@+id/zsjg_iv"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/zsjg_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="第一章 管理学导论"
+        android:textColor="@color/black" />
+
+</LinearLayout>

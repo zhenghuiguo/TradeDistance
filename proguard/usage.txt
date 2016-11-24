@@ -1,0 +1,809 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+android.support.annotation.AnimRes
+android.support.annotation.AnimatorRes
+android.support.annotation.AnyRes
+android.support.annotation.ArrayRes
+android.support.annotation.AttrRes
+android.support.annotation.BinderThread
+android.support.annotation.BoolRes
+android.support.annotation.CallSuper
+android.support.annotation.CheckResult
+android.support.annotation.ColorInt
+android.support.annotation.ColorRes
+android.support.annotation.DimenRes
+android.support.annotation.DrawableRes
+android.support.annotation.FloatRange
+android.support.annotation.FractionRes
+android.support.annotation.IdRes
+android.support.annotation.IntDef
+android.support.annotation.IntRange
+android.support.annotation.IntegerRes
+android.support.annotation.InterpolatorRes
+android.support.annotation.LayoutRes
+android.support.annotation.MainThread
+android.support.annotation.MenuRes
+android.support.annotation.NonNull
+android.support.annotation.Nullable
+android.support.annotation.PluralsRes
+android.support.annotation.RawRes
+android.support.annotation.RequiresPermission
+android.support.annotation.RequiresPermission$Read
+android.support.annotation.RequiresPermission$Write
+android.support.annotation.Size
+android.support.annotation.StringDef
+android.support.annotation.StringRes
+android.support.annotation.StyleRes
+android.support.annotation.StyleableRes
+android.support.annotation.TransitionRes
+android.support.annotation.UiThread
+android.support.annotation.VisibleForTesting
+android.support.annotation.WorkerThread
+android.support.annotation.XmlRes
+api.ApiAction:
+    public static final java.lang.String DengLu
+    public static final java.lang.String BangDingZhongDuan
+    public static final java.lang.String ZhuXiao
+    public static final java.lang.String GeRenXinXi
+    public static final java.lang.String JiaoXueJiHua
+    public static final java.lang.String KeChengXinXi
+    public static final java.lang.String ZaiXueKeCheng
+    public static final java.lang.String ZaiXueKeCheng_YWJ
+    public static final java.lang.String FuXiDaGang
+    public static final java.lang.String PingShiZuoYeChengJi
+    public static final java.lang.String LanMuCaiDan
+    public static final java.lang.String kaoshi
+    public static final java.lang.String zongxuefen
+    public static final java.lang.String GuangGaoWei
+    public static final java.lang.String kaochangchaxun
+    public static final java.lang.String kaoshiyuyue
+    public static final java.lang.String tongzhigonggao
+    public static final java.lang.String xiazai
+    public static final java.lang.String GeRenSheZhi
+    12:12:public ApiAction()
+api.ApiGlobal
+api.DiskLruCache:
+    static final java.lang.String JOURNAL_FILE
+    static final java.lang.String JOURNAL_FILE_TMP
+    static final java.lang.String MAGIC
+    static final java.lang.String VERSION_1
+    static final long ANY_SEQUENCE_NUMBER
+    private static final java.lang.String CLEAN
+    private static final java.lang.String DIRTY
+    private static final java.lang.String REMOVE
+    private static final java.lang.String READ
+    private static final int IO_BUFFER_SIZE
+    196:205:public static java.lang.String readFully(java.io.Reader)
+    545:545:public java.io.File getDirectory()
+    553:553:public long maxSize()
+    562:562:public synchronized long size()
+    663:663:public boolean isClosed()
+    724:724:private static java.lang.String inputStreamToString(java.io.InputStream)
+    517:517:static synthetic api.DiskLruCache$Editor access$5(api.DiskLruCache,java.lang.String,long)
+    723:723:static synthetic java.lang.String access$6(java.io.InputStream)
+    111:111:static synthetic java.nio.charset.Charset access$7()
+api.DiskLruCache$Editor:
+    787:787:public java.io.InputStream newInputStream(int)
+    803:804:public java.lang.String getString(int)
+    827:834:public void set(int,java.lang.String)
+api.DiskLruCache$Snapshot:
+    747:747:public api.DiskLruCache$Editor edit()
+    761:761:public java.lang.String getString(int)
+api.GsonRequest:
+    private static final int initialTimeoutMs
+    private static final int maxNumRetries
+    private static final float backoffMultiplier
+    private static final java.lang.String RequestEncoding
+    private java.util.Map mParams
+    android.content.Context mContext
+    49:50:public GsonRequest(android.content.Context,java.lang.String,java.lang.Class,com.android.volley.Response$Listener,java.lang.String,com.android.volley.Response$ErrorListener)
+    97:98:public api.GsonRequest addParam(java.lang.String,java.lang.String)
+    109:110:public api.GsonRequest addParam(java.lang.String,java.lang.Integer)
+    121:122:public api.GsonRequest addParam(java.lang.String,java.lang.Long)
+    134:138:public api.GsonRequest addParam(java.lang.String,java.util.Map)
+    146:147:public api.GsonRequest addAllParams(java.util.Map)
+    151:152:public void setParams(java.util.Map)
+api.HttpCallbackListener
+api.HttpUrlConnectionUtil
+api.HttpUrlConnectionUtil$1
+api.ImageCacheManager:
+    private static android.content.Context mContext
+    38:38:public static com.android.volley.toolbox.ImageLoader$ImageListener getImageListener(android.widget.ImageView,android.graphics.Bitmap,android.graphics.Bitmap,android.widget.ListView)
+    105:107:public static void loadImage(android.content.Context,java.lang.String,android.widget.ImageView,android.graphics.Bitmap,android.graphics.Bitmap,android.widget.ListView)
+    121:122:public static void loadImage(android.content.Context,java.lang.String,android.widget.ImageView,android.graphics.Bitmap,android.graphics.Bitmap,int,int,android.widget.ListView)
+api.ImageCacheManager$1
+api.ImageCacheUtil:
+    private static final int DISKMAXSIZE
+api.LruCache:
+    187:203:public final java.lang.Object remove(java.lang.Object)
+    276:277:public final void evictAll()
+    285:285:public final synchronized int size()
+    294:294:public final synchronized int maxSize()
+    301:301:public final synchronized int hitCount()
+    309:309:public final synchronized int missCount()
+    316:316:public final synchronized int createCount()
+    323:323:public final synchronized int putCount()
+    330:330:public final synchronized int evictionCount()
+    338:338:public final synchronized java.util.Map snapshot()
+api.MD5Utils:
+    7:7:public MD5Utils()
+api.VolleyController:
+    private static final int DISKMAXSIZE
+    private static final java.lang.String TAG
+    private static final java.lang.String DEFAULT_CACHE_DIR
+    184:187:public void addToRequestQueue(com.android.volley.Request,java.lang.String)
+    207:211:public void setCookie()
+api.VolleyErrorHelper:
+    37:37:public VolleyErrorHelper()
+api.XMLRequest
+com.td.tradedistance.app.ApiGlobal:
+    public static final java.lang.String RequestEncoding
+    public static final int REQUEST_TIMEOUT
+    public static final int SO_TIMEOUT
+    public static final boolean DEBUG
+    public static final java.lang.String threadCount
+    public static final int isAvaiableSpace
+    public static final int BufferSize
+    public static final int RollBuffer
+    11:11:public ApiGlobal()
+    26:27:public static final void setBaseUrl(java.lang.String)
+    30:30:public static final java.lang.String getBaseUrl()
+    39:39:public static final java.lang.String getUrl(java.lang.String)
+com.td.tradedistance.app.BuildConfig
+com.td.tradedistance.app.Manifest
+com.td.tradedistance.app.Manifest$permission
+com.td.tradedistance.app.R:
+    10:10:public R()
+com.td.tradedistance.app.R$anim
+com.td.tradedistance.app.R$attr
+com.td.tradedistance.app.R$color
+com.td.tradedistance.app.R$dimen
+com.td.tradedistance.app.R$drawable
+com.td.tradedistance.app.R$id
+com.td.tradedistance.app.R$layout
+com.td.tradedistance.app.R$menu
+com.td.tradedistance.app.R$string
+com.td.tradedistance.app.R$style
+com.td.tradedistance.app.R$styleable:
+    543:543:public R$styleable()
+com.td.tradedistance.app.Receiver.JPushReceiver:
+    private static final java.lang.String TAG
+com.td.tradedistance.app.TDApp:
+    private static final java.lang.String TAG
+    24:24:public com.td.tradedistance.app.bean.DeviceInfo getDeviceInfo()
+    40:41:public static void getCurrentUserName()
+    65:75:public static boolean isTopActivy(android.content.Context,java.lang.String)
+    79:97:public void displayBriefMemory()
+com.td.tradedistance.app.activity.BaseActivity:
+    protected android.view.inputmethod.InputMethodManager inputMethodManager
+    28:34:protected void hideSoftKeyboard()
+com.td.tradedistance.app.activity.GeRenXinXinActivity:
+    private static final java.lang.String requestTag
+com.td.tradedistance.app.activity.LoginActivity:
+    private static final java.lang.String requestTag
+com.td.tradedistance.app.activity.MainActivity:
+    private static final java.lang.String Tag
+    public static final java.lang.String MESSAGE_RECEIVED_ACTION
+    public static final java.lang.String KEY_TITLE
+    public static final java.lang.String KEY_MESSAGE
+    public static final java.lang.String KEY_EXTRAS
+com.td.tradedistance.app.activity.ScreenObserver
+com.td.tradedistance.app.activity.ScreenObserver$ScreenBroadcastReceiver
+com.td.tradedistance.app.activity.ScreenObserver$ScreenStateListener
+com.td.tradedistance.app.activity.VideoPlayerActivity:
+    private static final java.lang.String TAG
+    private static final java.lang.String ACTION_SUOPing
+    private static final int TIME
+    private static final int PROGRESS_CHANGED
+    private static final int HIDE_CONTROLER
+    private static final int SCREEN_FULL
+    private static final int SCREEN_DEFAULT
+    642:646:private int findAlphaFromSound()
+com.td.tradedistance.app.activity.VideoPlayerActivity$MovieInfo:
+    java.lang.String displayName
+    final synthetic com.td.tradedistance.app.activity.VideoPlayerActivity this$0
+    62:62:public VideoPlayerActivity$MovieInfo(com.td.tradedistance.app.activity.VideoPlayerActivity)
+com.td.tradedistance.app.activity.XiaoXiZhongXiActivity:
+    private static final java.lang.String Tag
+    private android.content.Context mContext
+com.td.tradedistance.app.adapter.Course1Adapter
+com.td.tradedistance.app.adapter.Course1Adapter$ViewHolder
+com.td.tradedistance.app.adapter.Course1Adapter$ViewHolder1
+com.td.tradedistance.app.adapter.CourseAdapter$KeChengShuXing
+com.td.tradedistance.app.adapter.DownLoadingAdapter:
+    private android.widget.RelativeLayout rl
+    private boolean mBusy
+    44:44:public int getBianJiInt()
+    48:49:public void setBianJiInt(int)
+    59:59:public boolean ismBusy()
+    102:103:public void setList(android.util.SparseArray)
+    289:290:public void setmBusy(boolean)
+com.td.tradedistance.app.adapter.DownLoadingAdapter$ViewHolder:
+    android.widget.TextView zhang_tv
+    android.widget.TextView jie_tv
+com.td.tradedistance.app.adapter.DownloadingManagerCourseAdapter
+com.td.tradedistance.app.adapter.DownloadingManagerCourseAdapter$1
+com.td.tradedistance.app.adapter.DownloadingManagerCourseAdapter$2
+com.td.tradedistance.app.adapter.DownloadingManagerCourseAdapter$ViewHolder
+com.td.tradedistance.app.adapter.ImagAdapter:
+    46:46:public void change(java.util.List)
+com.td.tradedistance.app.adapter.MuLuXiaZaiAdapter:
+    private static final int REQUECT_CODE_SDCARD
+com.td.tradedistance.app.adapter.StudyAdapter
+com.td.tradedistance.app.adapter.StudyAdapter$1
+com.td.tradedistance.app.adapter.StudyAdapter$2
+com.td.tradedistance.app.adapter.StudyAdapter$3
+com.td.tradedistance.app.adapter.StudyAdapter$KeChengShuXing
+com.td.tradedistance.app.adapter.StudyAdapter$ViewHolder
+com.td.tradedistance.app.adapter.StudyElAdapter:
+    private boolean mBusy
+    34:34:public boolean ismBusy()
+    41:41:public boolean getWanJieFlag(boolean)
+com.td.tradedistance.app.adapter.TypeTotalCourseAdapter$KeChengShuXing
+com.td.tradedistance.app.fragment.BaseFragment:
+    22:27:protected void hideSoftKeyboard()
+com.td.tradedistance.app.fragment.Course1Fragment
+com.td.tradedistance.app.fragment.Course1Fragment$1
+com.td.tradedistance.app.fragment.Course1Fragment$2
+com.td.tradedistance.app.fragment.Course1Fragment$3
+com.td.tradedistance.app.fragment.Course1Fragment$4
+com.td.tradedistance.app.fragment.CourseFragment:
+    55:55:public com.td.tradedistance.app.widget.ViewPaperIndicator getViewpaper()
+    163:203:public void loadLanMuCaiDan()
+    205:246:public void loadPingShiZuoYeChengJi()
+    248:289:public void loadFuXiDaGang()
+    341:382:public void loadKeChengXinXi()
+    385:425:public void loadZaiXueKeCheng()
+    487:511:private void pageImgLoad(int,int,android.widget.AbsListView)
+com.td.tradedistance.app.fragment.CourseFragment$12
+com.td.tradedistance.app.fragment.CourseFragment$13
+com.td.tradedistance.app.fragment.CourseFragment$14
+com.td.tradedistance.app.fragment.CourseFragment$15
+com.td.tradedistance.app.fragment.CourseFragment$4
+com.td.tradedistance.app.fragment.CourseFragment$5
+com.td.tradedistance.app.fragment.CourseFragment$6
+com.td.tradedistance.app.fragment.CourseFragment$7
+com.td.tradedistance.app.fragment.CourseFragment$8
+com.td.tradedistance.app.fragment.CourseFragment$9
+com.td.tradedistance.app.fragment.DaGangFragment:
+    private static final java.lang.String Tag
+    94:135:public void loadFuXiDaGang()
+com.td.tradedistance.app.fragment.DaGangFragment$1
+com.td.tradedistance.app.fragment.DaGangFragment$2
+com.td.tradedistance.app.fragment.DownLoadFragment:
+    private static final java.lang.String Tag
+com.td.tradedistance.app.fragment.MuLuFragment:
+    private static final java.lang.String Tag
+    private static final int REQUECT_CODE_SDCARD
+com.td.tradedistance.app.fragment.MyFragment:
+    private static final java.lang.String Tag
+com.td.tradedistance.app.fragment.StudyFragment
+com.td.tradedistance.app.fragment.StudyFragment1:
+    private static final java.lang.String Tag
+    private android.content.Context mContext
+com.td.tradedistance.app.fragment.WanJieCourseFragment:
+    private static final java.lang.String Tag
+    45:45:public com.td.tradedistance.app.widget.ProgressBarView getPb_Loading_List()
+    48:49:public void setPb_Loading_List(com.td.tradedistance.app.widget.ProgressBarView)
+com.td.tradedistance.app.fragment.WoDeGongGaoCourseFragment:
+    private static final java.lang.String Tag
+com.td.tradedistance.app.fragment.WoDeXiaoXiCourseFragment:
+    private static final java.lang.String Tag
+com.td.tradedistance.app.fragment.ZaiXueCourseFragment:
+    int _start_index
+    int _end_index
+    49:49:public com.td.tradedistance.app.widget.ProgressBarView getPb_Loading_List()
+    52:53:public void setPb_Loading_List(com.td.tradedistance.app.widget.ProgressBarView)
+com.td.tradedistance.app.fragment.ZaiXueCourseFragment1
+com.td.tradedistance.app.fragment.ZaiXueCourseFragment1$1
+com.td.tradedistance.app.fragment.ZaiXueCourseFragment1$2
+com.td.tradedistance.app.fragment.ZaiXueCourseFragment1$3
+com.td.tradedistance.app.fragment.ZuoYeFragment:
+    private static final java.lang.String Tag
+com.td.tradedistance.app.global.Global:
+    public static final java.lang.String ZDXTLX
+    public static java.lang.String password
+    public static final java.lang.String YHLX
+    public static final java.lang.String KEY
+    public static final java.lang.String USERNAME
+    public static final java.lang.String PASSWORD
+    public static final java.lang.String DES_MODEL
+    public static final java.lang.String ZhongDuanBangDingKey
+    public static final java.lang.String ZhongDuanBangDingValue
+    public static final int Success
+    public static final java.lang.String show_success
+    public static final java.lang.String login_success
+    public static final java.lang.String cancle_success
+    public static final java.lang.String show_failed
+    public static final int push_success
+    public static final java.lang.String show_push_success
+    public static final int no_file
+    public static final java.lang.String no_file_info
+    public static final int no_quan_xian
+    public static final java.lang.String no_quan_xian_info
+    public static final int no_banding_zdtsm
+    public static final java.lang.String no_bangding_zdtsm_info
+    public static final int no_lixiang
+    public static final java.lang.String no_lixiang_info
+    public static final int dec_failed
+    public static final java.lang.String show_dec_failed
+    public static final int param_error
+    public static final java.lang.String show_param_error
+    public static final int sys_no_exist
+    public static final java.lang.String show_sys_no_exist
+    public static final int execute_error
+    public static final java.lang.String show_execute_error
+    public static final int user_or_pass_error
+    public static final java.lang.String show_user_or_pass_error
+    public static final int android_imei_no_exist
+    public static final java.lang.String show_android_imei_no_exist
+    public static final int error_sqm
+    public static final java.lang.String show_error_sqm
+    public static final int sjhyzc
+    public static final java.lang.String show_sjhyzc
+    public static final int fsyzmsb
+    public static final java.lang.String show_fsyzmsb
+    public static final int noData
+    public static final java.lang.String show_no_data
+    public static final int account_no_open
+    public static final java.lang.String show_account_no_open
+    public static final java.lang.String log_off_success
+    public static final java.lang.String log_off_failed
+    public static final java.lang.String qzgx
+    public static final java.lang.String noqzgx
+    public static final java.lang.String jgid
+    public static final java.lang.String zlmid
+    public static final java.lang.String hqts
+    public static final java.lang.String hqts10
+    public static final java.lang.String tphqts
+    public static final java.lang.String hqtj
+    public static final java.lang.String rgbys
+    public static final java.lang.String UserNameTip
+    public static final java.lang.String NameTip
+    public static final java.lang.String SFZTip
+    public static final java.lang.String XBTip
+    public static final java.lang.String PasswordTip
+    public static final java.lang.String currPasswordTip
+    public static final java.lang.String newPasswordTip
+    public static final java.lang.String confirmPasswordTip
+    public static final java.lang.String isConfirmTip
+    public static final java.lang.String oldPasswordTip
+    public static final java.lang.String NoNetWorkTip
+    public static final java.lang.String IsKaiFangBaoMing1
+    public static final java.lang.String IsKaiFangBaoMing0
+    public static final java.lang.String BaoMingPhone
+    public static final java.lang.String BaoMingName
+    public static final int SetMiao
+    public static final java.lang.String noSDTip
+    public static final java.lang.String epubType
+    public static final java.lang.String pdfType
+    public static final java.lang.String Downfailed
+    public static final java.lang.String noFile
+    public static final java.lang.String MyShare
+    public static final java.lang.String IsSavePassWordValue
+    public static final java.lang.String IsLoginValue
+    public static final java.lang.String IsPassValue
+    public static final java.lang.String PassWordKey
+    public static final java.lang.String PassWordKey1
+    public static final java.lang.String LoginKey
+    public static final java.lang.String passKey
+    public static final java.lang.String flag
+    public static final java.lang.String ShowNameAndPass
+    public static final java.lang.String UserNameKey
+    public static final java.lang.String no_data
+    public static final java.lang.String update_version
+    public static final java.lang.String must_update_version
+    public static final int PARSE_SUCCESS
+    public static final int DOWNLOAD_SUCCESS
+    public static final int DOWNLOAD_ERROR
+    public static final java.lang.String download_failed
+    public static final java.lang.String deviceType
+    public static final java.lang.String dlhdlm
+    public static final java.lang.String mp4
+    public static final java.lang.String mp3
+    public static final java.lang.String pdf
+    public static final java.lang.String epub
+    public static final java.lang.String zip
+    public static final java.lang.String html
+    public static final java.lang.String LanMuJson
+    public static final java.lang.String zlkzlm
+    public static final java.lang.String FengHuoLangYanTuPian
+    public static final boolean YiBangDing
+    public static final boolean MeiBangDing
+    public static final java.lang.String tishi
+    public static final java.lang.String WdtwKey
+    public static final java.lang.String WdhdKey
+    public static final java.lang.String WdscKey
+    public static final java.lang.String FlKey
+    public static final java.lang.String networdtip
+    public static final java.lang.String repeatTip
+    public static final java.lang.String limit
+    public static final java.lang.String quanbu
+    public static final java.lang.String WJJMKey
+    public static final java.lang.String TYXTBBHKey
+    public static final java.lang.String FileAuthorizationTip
+    public static final java.lang.String RemainingSpace
+    public static final java.lang.String fileDeleted
+    public static final java.lang.String FileAuthorizationFailureTip
+    public static final java.lang.String log
+    public static final int name_exist
+    public static final java.lang.String show_name_exist
+    public static final java.lang.String baoming_success
+    public static final java.lang.String dianzang_success
+    public static final java.lang.String quxiaodianzang_success
+    public static final java.lang.String dianzang_failed
+    public static final java.lang.String shoucang_success
+    public static final java.lang.String shoucang_quxiao
+    public static final java.lang.String shoucang_failed
+    public static final java.lang.String baoming_failed
+    public static final java.lang.String pinglun_success
+    public static final java.lang.String pinglun_failed
+    public static final java.lang.String no_name
+    public static final java.lang.String modify_failed
+    public static final java.lang.String modify_success
+    public static final java.lang.String no_WIFI
+    public static final java.lang.String no_3G
+    public static final java.lang.String phone_num_show
+    public static final java.lang.String listviewTimeKey
+    public static final java.lang.String hdbm
+    public static final java.lang.String hdhg
+    public static final java.lang.String zxpl
+    public static final java.lang.String jpld
+    public static final java.lang.String xdjj
+    public static final java.lang.String fhly
+    public static final java.lang.String zsgd
+    public static final java.lang.String szjx
+    public static final java.lang.String txz
+    public static final java.lang.String qb
+    public static final java.lang.String ss
+    public static final int dsbx
+    public static final int rhts
+    public static final int tzzj
+    public static final int ywsc
+    public static final java.lang.String yhq
+    public static final java.lang.String gg
+    public static final java.lang.String xx
+    public static final int tupian_width
+    public static final int tupian_heidth
+    public static final int tupian_width80
+    public static final int tupian_heidth80
+    public static final int tupian_width100
+    public static final int tupian_heidth100
+    public static final java.lang.String MP4
+    public static final java.lang.String HTML
+    public static final java.lang.String WXAppID
+    public static final java.lang.String WXAppSecret
+    public static final java.lang.String QQAppID
+    public static final java.lang.String QQAppSecret
+    public static final java.lang.String SLAppID
+    public static final java.lang.String SLAppSecret
+    public static final java.lang.String jpushId
+    public static final java.lang.String wtx
+    public static final java.lang.String nan
+    public static final java.lang.String nv
+    public static final java.lang.String pass_success
+    public static final java.lang.String pass_fail
+    public static final java.lang.String mobil
+    public static final java.lang.String mail
+    public static final java.lang.String fenzhi
+    public static final java.lang.String keshiyong
+    public static final java.lang.String xianyou
+    public static final int gonggao
+    public static final int xiaoxi
+    public static final int yiuhuima
+    public static final java.lang.String yhmje
+    public static final java.lang.String dfm
+    public static final java.lang.String fuhao
+    public static final java.lang.String fushu
+    public static final java.lang.String KeCheng
+    public static final java.lang.String HuoDongBaoMing
+    public static final java.lang.String sstip
+    public static final java.lang.String ssfind
+    public static final java.lang.String tiao
+    public static final java.lang.String yidianzhan
+    public static final java.lang.String yiuhuiquanstr
+    public static final java.lang.String hdbmid
+    public static final java.lang.String alipaySuccess
+    public static final java.lang.String alipaySuccesstip
+    public static final java.lang.String alipayFail
+    public static final java.lang.String alipayFailTip
+    public static final java.lang.String alipayCancel
+    public static final java.lang.String alipayCancelTip
+    public static final java.lang.String birthday
+    public static final java.lang.String uuid
+    public static final java.lang.String reg
+    public static final java.lang.String guanggao
+    public static final java.lang.String guanggaoTuPian
+    public static final java.lang.String guanggaolianjie
+    public static final java.lang.String wsgrxx
+    public static final java.lang.String kc_wddd
+    public static final java.lang.String kc_hdbm
+    public static final java.lang.String kc_szzj
+    public static final java.lang.String kc_szjx_hdbm
+    public static final int waitIcon
+    public static final int downIcon
+    public static final int downedIcon
+    public static final int stopIcon
+    public static final int downingIcon
+    public static final int wait
+    public static final int down
+    public static final int downing
+    public static final int stop
+    public static final int downed
+    public static final java.lang.String xueweike
+    15:15:public Global()
+com.td.tradedistance.app.localstorage.DBManager:
+    37:41:public synchronized void closeDB()
+    128:135:public synchronized void updateKeCheng(com.td.tradedistance.app.bean.JiaoXueJiHua)
+    431:461:public synchronized java.util.List getDownLoadIngList(java.lang.String)
+com.td.tradedistance.app.localstorage.DbOpenHelper:
+    private static final java.lang.String LOGIN_RECORD_TABLE_CREATE
+    private static final java.lang.String KE_CHENG_TABLE_CREATE
+    private static final java.lang.String KE_CHENG_ZHANGJIE_TABLE_CREATE
+    private static final java.lang.String DOWNLOAD_INFO_TABLE_CREATE
+    98:107:public static void closeDB()
+com.td.tradedistance.app.localstorage.DownLoad_Info_Dao:
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String COLUMN_ID
+    public static final java.lang.String COLUMN_THREAD_ID
+    public static final java.lang.String COLUMN_START_POS
+    public static final java.lang.String COLUMN_END_POS
+    public static final java.lang.String COLUMN_COMPELETE_SIZE
+    public static final java.lang.String COLUMN_URL
+    public static final java.lang.String COLUMN_LOCALURL
+    public static final java.lang.String COLUMN_KE_CHENG_DAI_MA
+    public static final java.lang.String COLUMN_YHWYBS
+    public static final java.lang.String COLUMN_FILESIZE
+    public static final java.lang.String COLUMN_KECHENGMINGCHENG
+    public static final java.lang.String COLUMN_ZHAOPIAN
+    public static final java.lang.String COLUMN_ZHANG
+    public static final java.lang.String COLUMN_JIE
+    public static final java.lang.String COLUMN_STATE
+    public static final java.lang.String COLUMN_BEIYONG1
+    public static final java.lang.String COLUMN_BEIYONG2
+    public static final java.lang.String COLUMN_BEIYONG3
+    80:80:public java.util.List getDownLoadIngList(java.lang.String)
+com.td.tradedistance.app.localstorage.KeChengDao:
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String COLUMN_ID
+    public static final java.lang.String COLUMN_XUEWWEIKE
+    public static final java.lang.String COLUMN_KECHENGDAIMA
+    public static final java.lang.String COLUMN_KECHENGMINGCHENG
+    public static final java.lang.String COLUMN_KECHENGZHAOPIAN
+    public static final java.lang.String COLUMN_COUNT
+    public static final java.lang.String COLUMN_YHWYBS
+    public static final java.lang.String COLUMN_BEIYONG1
+    public static final java.lang.String COLUMN_BEIYONG2
+    public static final java.lang.String COLUMN_BEIYONG3
+    31:32:public void saveKeCheng(com.td.tradedistance.app.bean.JiaoXueJiHua)
+    38:39:public void updateKeCheng(java.lang.String,com.td.tradedistance.app.bean.JiaoXueJiHua)
+    44:47:public boolean getKeChengItem(java.lang.String)
+com.td.tradedistance.app.localstorage.KeChengZhangJieDao:
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String COLUMN_ID
+    public static final java.lang.String COLUMN_KECHENGDAIMA
+    public static final java.lang.String COLUMN_ZHANG
+    public static final java.lang.String COLUMN_JIE
+    public static final java.lang.String COLUMN_YHWYBS
+    public static final java.lang.String COLUMN_GUANGKANBAIFENBI
+    public static final java.lang.String COLUMN_TOTAL_SIZE
+    public static final java.lang.String COLUMN_SHIPINGDIZHI
+    public static final java.lang.String COLUMN_XUHAO
+    public static final java.lang.String COLUMN_BEIYONG1
+    public static final java.lang.String COLUMN_BEIYONG2
+    public static final java.lang.String COLUMN_BEIYONG3
+    35:36:public void saveKeChengZhangJie(com.td.tradedistance.app.bean.CourseDetailsShuju)
+com.td.tradedistance.app.localstorage.LoginRecordDao:
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String COLUMN_ID
+    public static final java.lang.String COLUMN_NAME_ID
+    public static final java.lang.String COLUMN_LOCK_FLAG
+    public static final java.lang.String COLUMN_FAILURE_NUM
+    public static final java.lang.String COLUMN_LOGIN_DATE
+com.td.tradedistance.app.localstorage.PreFerenceManager:
+    private static final java.lang.String UserName
+    59:61:public void setXueHao(java.lang.String)
+    63:63:public java.lang.String getXueHao()
+    67:69:public void setTouXiang(java.lang.String)
+    71:71:public java.lang.String getTouXiang()
+    132:134:public void setDengLuChuCuoCiShu(java.lang.String)
+    136:136:public java.lang.String getDengLuChuCuoCiShu()
+    141:143:public void setDiYiChiDengLuChuCuoShiJian(java.lang.String)
+    145:145:public java.lang.String getDiYiChiDengLuChuCuoShiJian()
+    157:158:public void delPlayProgress(java.lang.String)
+    161:163:public void setIsLogin(boolean)
+    165:165:public boolean getIsLogin()
+com.td.tradedistance.app.utils.Base64:
+    6:6:public Base64()
+    60:75:private static int decode(char)
+    86:99:public static byte[] decode(java.lang.String)
+    103:128:private static void decode(java.lang.String,java.io.OutputStream)
+com.td.tradedistance.app.utils.CommonUtil:
+    4:4:public CommonUtil()
+com.td.tradedistance.app.utils.DES:
+    8:8:public DES()
+    45:50:public static java.lang.String decryptDES(java.lang.String,java.lang.String)
+    55:61:public static void main(java.lang.String[])
+com.td.tradedistance.app.utils.Device:
+    24:24:public Device()
+    67:69:public static java.lang.String getLocalMacAddress(android.content.Context)
+    73:78:public static boolean isDeviceType(android.telephony.TelephonyManager)
+com.td.tradedistance.app.utils.DownLoadUtil
+com.td.tradedistance.app.utils.ExampleUtil
+com.td.tradedistance.app.utils.ExampleUtil$1
+com.td.tradedistance.app.utils.FileOperationUtils:
+    private java.lang.String SDPATH
+    32:35:public FileOperationUtils()
+    44:46:public java.io.File createSDFile(java.lang.String)
+    53:61:public boolean createSDDir(java.lang.String)
+    68:69:public boolean isFileExist(java.lang.String)
+    79:84:public static boolean delFile(java.lang.String)
+    87:94:public static byte[] readFile(java.io.File)
+    97:111:public static void WriteFile(java.lang.String,java.lang.String)
+    114:136:public static java.lang.String readFileStr(java.lang.String)
+    139:144:public static boolean isFile(java.lang.String)
+    153:153:public static java.lang.String getFileNamePath12(java.lang.String)
+    156:157:public static java.lang.String getFileType(java.lang.String)
+    166:166:public static java.lang.String getTuPianPath()
+    178:178:public static java.lang.String getJPYDPath()
+    181:181:public static java.lang.String getMoueeCourseDome()
+    184:184:public static java.lang.String getCachePath()
+    187:187:public static java.lang.String getCachePath1()
+    190:190:public static java.lang.String getHeadPath()
+    193:193:public static java.lang.String getJsonPath()
+    196:196:public static java.lang.String getMoueePath()
+    199:199:public static java.lang.String getLearnResPath()
+    208:211:public static java.lang.String getName(java.lang.String)
+    214:214:public static java.lang.String getDZZlPath()
+    217:217:public static java.lang.String getDZZlPathAddYhwybs(android.content.Context)
+    220:220:public static java.lang.String getTempPath()
+    223:223:public static java.lang.String getLogPath()
+    226:235:public static void fileIsMkdirs(java.lang.String)
+    239:245:public static boolean rename(java.lang.String,java.lang.String,java.lang.String)
+    249:255:public static java.lang.String getNames(java.lang.String)
+    258:258:public static boolean isAvaiableSpace(java.lang.String)
+    261:264:public static boolean avaiableSpaceTip(java.lang.String,android.content.Context)
+    269:288:public static boolean copyFile(java.lang.String,java.lang.String)
+    292:296:public static void deleteCache1()
+    300:310:public static void deleteAllWjjAndwj(java.io.File)
+    312:320:public static void deleteAll1(java.lang.String)
+    322:329:public static void deleteAll(java.lang.String)
+com.td.tradedistance.app.utils.Logger:
+    private static final java.lang.String TAG
+    9:9:public Logger()
+    36:36:public static void e(java.lang.String,java.lang.Object)
+    47:47:public static void w(java.lang.String,java.lang.Object)
+com.td.tradedistance.app.utils.NetUtils:
+    13:13:public NetUtils()
+    75:81:public static boolean isMobileConnected(android.content.Context,android.net.ConnectivityManager)
+com.td.tradedistance.app.utils.ProgressUtils:
+    16:18:public ProgressUtils(android.content.Context)
+    24:24:public static com.td.tradedistance.app.utils.ProgressUtils GetProgressUtils()
+    53:53:public com.td.tradedistance.app.utils.ProgressUtils setTitile(java.lang.String)
+    65:68:public static void Dismiss()
+    70:74:public void destry()
+com.td.tradedistance.app.utils.SDCardSizeUtil:
+    27:39:public static boolean isAvaiableSpace(int)
+    42:46:public static long getAvailableInternalMemorySize()
+    50:54:public static long getTotalInternalMemorySize()
+    58:58:public static boolean externalMemoryAvailable()
+    67:79:public static boolean getAvailableExternalMemorySize(long)
+    100:108:public static long getTotalExternalMemorySize()
+    126:126:public static long getSDYiYongKongJian()
+    129:132:public static long getSDTotleKongJian()
+    138:138:public static boolean isSDCardEnable()
+    150:188:public static long manageFile(int)
+    197:197:public static java.lang.String formatSize(android.content.Context,long)
+com.td.tradedistance.app.utils.ToastUtil:
+    17:17:public ToastUtil()
+    74:78:public static void noDataTip()
+    81:85:public static void noDataTip1()
+    121:124:public static void Tel(android.content.Context,java.lang.String)
+com.td.tradedistance.app.utils.UserInfo
+com.td.tradedistance.app.widget.SoundView:
+    public static final java.lang.String TAG
+    private static final int HEIGHT
+    public static final int MY_HEIGHT
+    public static final int MY_WIDTH
+com.td.tradedistance.app.widget.VideoView:
+    139:164:public int resolveAdjustedSize(int,int)
+com.td.tradedistance.app.widget.ViewPaperIndicator:
+    private android.widget.TextView tv_title
+down.DownloadFile
+down.DownloadInfo:
+    private java.lang.String yhwybs
+    private java.lang.String KeChengDaiMa
+    37:38:public void setLocalUrl(java.lang.String)
+    50:50:public int getState()
+    53:54:public void setState(int)
+    56:56:public java.lang.String getKeChengDaiMa()
+    59:60:public void setKeChengDaiMa(java.lang.String)
+    65:66:public void setKeChengMingCheng(java.lang.String)
+    71:72:public void setZhang(java.lang.String)
+    77:78:public void setJie(java.lang.String)
+    83:84:public void setZhaoPain(java.lang.String)
+    90:91:public void setMaxSize(int)
+    113:114:public void setUrl(java.lang.String)
+    119:120:public void setThreadId(int)
+    125:126:public void setStartPos(int)
+    131:132:public void setEndPos(int)
+    137:138:public void setCompeleteSize(int)
+    141:141:public java.lang.String getYhwybs()
+    144:145:public void setYhwybs(java.lang.String)
+down.DownloadManager
+down.DownloadManager$DownloadTask
+down.Downloader:
+    down.DownloadInfo info
+    int loadingPos
+    private int length
+    private android.os.Handler mDownloadingHandler
+    private static final int WAIT
+    private static final int INIT
+    private static final int DOWNLOADING
+    private static final int PAUSE
+    private android.widget.TextView tDownLoading_tv
+    34:34:public android.widget.ProgressBar getProgressBar()
+    40:40:public android.widget.TextView getDaxiao()
+    53:53:public android.os.Handler getmHandler()
+    56:57:public void setmHandler(android.os.Handler)
+    61:61:public int getLoadingPos()
+    64:65:public void setLoadingPos(int)
+    74:75:public void setUrlstr(java.lang.String)
+    84:85:public void setLocalfile(java.lang.String)
+    98:98:public down.DownloadInfo getInfo()
+    101:102:public void setInfo(down.DownloadInfo)
+    111:111:public int getLength()
+    114:115:public void setLength(int)
+    134:134:public android.os.Handler getmDownloadingHandler()
+    137:138:public void setmDownloadingHandler(android.os.Handler)
+    146:146:public boolean isB()
+    183:183:public java.lang.String getKeChengDaiMa()
+    186:187:public void setKeChengDaiMa(java.lang.String)
+    213:213:public int getWait()
+    216:216:public int getInit()
+    222:222:public static int getPause()
+    232:232:public android.widget.TextView gettDownLoading_tv()
+    235:236:public void settDownLoading_tv(android.widget.TextView)
+down.GlobalDownLoading1:
+    21:21:public boolean isDown()
+    28:28:public android.os.Handler getH()
+    50:55:public void delTask(down.GlobalDownLoading1$DownloadTask)
+    140:140:public java.util.Map getTaskList()
+    143:144:public void setTaskList(java.util.Map)
+    185:188:public void getTask(java.lang.String)
+down.GlobalDownLoading1$DownloadTask:
+    72:72:static synthetic void access$1(down.GlobalDownLoading1$DownloadTask,boolean)
+down.Globals:
+    20:20:public Globals()
+down.GlobalsDownLoading
+down.GlobalsDownLoading$1
+down.GlobalsDownLoading$1$1
+down.GlobalsListDownLoading:
+    21:21:public android.os.Handler getH()
+    38:38:public java.util.concurrent.ExecutorService getExecutorService()
+    99:100:public void setTaskList(java.util.Map)
+    136:139:public void getTask(java.lang.String)
+down.GlobalsListDownLoading$DownloadTask:
+    56:56:static synthetic void access$1(down.GlobalsListDownLoading$DownloadTask,boolean)
+down.LoadInfo:
+    private int state
+    26:26:public java.lang.String getKeChengMingCheng()
+    29:30:public void setKeChengMingCheng(java.lang.String)
+    32:32:public java.lang.String getZhang()
+    35:36:public void setZhang(java.lang.String)
+    38:38:public java.lang.String getJie()
+    41:42:public void setJie(java.lang.String)
+    44:44:public java.lang.String getZhaoPian()
+    47:48:public void setZhaoPian(java.lang.String)
+    50:50:public int getState()
+    53:54:public void setState(int)
+    71:72:public void setFileSize(int)
+    77:78:public void setComplete(int)
+    80:80:public java.lang.String getUrlstring()
+    83:84:public void setUrlstring(java.lang.String)
+down.QueueEntry:
+    private static final long serialVersionUID
+    private java.lang.String shiPingDiZhi
+    74:74:public java.lang.String getShiPingDiZhi()
+    78:79:public void setShiPingDiZhi(java.lang.String)
+    130:130:public int getState()

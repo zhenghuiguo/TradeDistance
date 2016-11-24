@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:td="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/course_fragment_bg"
+    android:orientation="vertical" >
+
+    <com.td.tradedistance.app.widget.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        td:titleBarLeftImage="@drawable/return_top"
+       />
+
+    <LinearLayout
+        android:id="@+id/lly"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/titlebar"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/download_more" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:text="@string/downedmore_str" />
+    </LinearLayout>
+     <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lly"
+        android:layout_above="@+id/bottonlly"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <ListView
+            android:id="@+id/yixiazaicourselist_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/divider_color"
+            android:dividerHeight="1dp"
+            android:listSelector="@color/transparent" />
+    </ScrollView>
+  <LinearLayout
+        android:id="@+id/bottonlly"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/tab_grey" >
+
+        <TextView
+            android:id="@+id/Kongjiandaxiao_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/viewpaper_bg"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TitleBar">
+        <attr name="titleBarTitle" format="string" />
+        <attr name="titleBarLeftImage" format="reference" />
+        <attr name="titleBarRightImage" format="reference" />
+        <attr name="titleBarBackground" format="reference|color" />
+    </declare-styleable>
+    <declare-styleable name="TabItem">
+        <attr name="tab_image_bg" format="reference" />
+        <attr name="name_text_string" format="string" />
+        <attr name="name_text_color" format="color" />
+        <attr name="name_text_size" format="dimension" />
+        <attr name="count_text_bg" format="reference" />
+        <attr name="count_text_size" format="dimension" />
+    </declare-styleable>
+	<declare-styleable name="MyTabView">
+        <attr name="myTabViewImage" format="reference" />
+        <attr name="textstr" format="string" />
+    </declare-styleable>
+</resources>

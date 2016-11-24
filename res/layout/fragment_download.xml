@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:td="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/course_fragment_bg"
+    android:orientation="vertical" >
+
+   <!--  <com.td.tradedistance.app.widget.TitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        td:titleBarRightImage="@drawable/news_top"
+        td:titleBarTitle="@string/download_str" /> -->
+
+    <include
+        android:id="@+id/include_downloading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleBar"
+        layout="@layout/downloading" />
+
+    <LinearLayout
+        android:id="@+id/lly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include_downloading"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="6dp"
+            android:layout_height="18dp"
+            android:background="@color/tv_tab_selected" />
+
+        <TextView
+            android:id="@+id/zhujiajiaoshi_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="已下载(5)"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size18" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lly"
+        android:layout_above="@+id/bottonlly"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <com.td.tradedistance.app.widget.WholeListView
+            android:id="@+id/yixiazaicourselist_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/divider_color"
+            android:dividerHeight="1dp"
+            android:listSelector="@color/transparent" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottonlly"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/tab_grey" >
+
+        <TextView
+            android:id="@+id/Kongjiandaxiao_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/viewpaper_bg"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="占用空间7.7G，可用空间37.7G" />
+    </LinearLayout>
+
+</RelativeLayout>

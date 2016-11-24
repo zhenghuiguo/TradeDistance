@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="bnt_login_text_color">#e66255</color>
+    <color name="course_count_color">#5B5B5B</color>
+    <color name="course_fragment_bg">#F6F6F8</color>
+    <color name="coursedetails_bg">#F6F6F8</color>
+    <color name="divider_color">#CECECE</color>
+    <color name="half_transparent">#7f000000</color>
+    <color name="jianjia">#727272</color>
+    <color name="name_color">#565656</color>
+    <color name="play_bg">#202020</color>
+    <color name="progressbar_bg">#A3A3A3</color>
+    <color name="rlt_title_bar_bg">#20487C</color>
+    <color name="tab_grey">#BCBCBC</color>
+    <color name="transparent">#00000000</color>
+    <color name="tv_tab_normal">#666666</color>
+    <color name="tv_tab_selected">#e66255</color>
+    <color name="viewpaper_bg">#6AA4A7</color>
+    <color name="white">#ffffff</color>
+    <color name="xxzx_riqi_color">#7A7A7A</color>
+    <color name="zhang_color">#5E5E5E</color>
+    <color name="zsjg_color">#636363</color>
+    <declare-styleable name="MyTabView"><attr format="reference" name="myTabViewImage"/><attr format="string" name="textstr"/></declare-styleable>
+    <declare-styleable name="TabItem"><attr format="reference" name="tab_image_bg"/><attr format="string" name="name_text_string"/><attr format="color" name="name_text_color"/><attr format="dimension" name="name_text_size"/><attr format="reference" name="count_text_bg"/><attr format="dimension" name="count_text_size"/></declare-styleable>
+    <declare-styleable name="TitleBar"><attr format="string" name="titleBarTitle"/><attr format="reference" name="titleBarLeftImage"/><attr format="reference" name="titleBarRightImage"/><attr format="reference|color" name="titleBarBackground"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="size10">10sp</dimen>
+    <dimen name="size11">11sp</dimen>
+    <dimen name="size12">12sp</dimen>
+    <dimen name="size14">14sp</dimen>
+    <dimen name="size16">16sp</dimen>
+    <dimen name="size18">18sp</dimen>
+    <dimen name="size20">20sp</dimen>
+    <dimen name="size20dp">20dp</dimen>
+    <dimen name="size22">22sp</dimen>
+    <dimen name="title_bar_heightsize">45dp</dimen>
+    <dimen name="titlebarleftrithtsize">25dp</dimen>
+    <string name="AboutMe_str">关于我们</string>
+    <string name="about_str">关于我们 </string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">贸大远程</string>
+    <string name="course_str">课程</string>
+    <string name="downedmore_str">下载更多视频</string>
+    <string name="download_str">下载</string>
+    <string name="downloading_str">正在下载</string>
+    <string name="edit_str">编辑</string>
+    <string name="geiwopingfen_str">给我评分 </string>
+    <string name="gerenxinxin_str">个人信息</string>
+    <string name="gostudy_str">去学习</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hidemore_str">收起</string>
+    <string name="kaishidati_str">开始答题</string>
+    <string name="kaoshichaxun_str">考试查询</string>
+    <string name="kaoshiyuyue_str">考试预约</string>
+    <string name="ke_str">课</string>
+    <string name="login">登录</string>
+    <string name="my_str">我的</string>
+    <string name="mychengji_str">我的成绩</string>
+    <string name="myshoucang_str">我的收藏</string>
+    <string name="outlogin">退出登录</string>
+    <string name="qingchuapphuancun_str">清除应用缓存 </string>
+    <string name="quanbuxiazai_str">全部下载</string>
+    <string name="seemore_str">查看更多</string>
+    <string name="setting_str">设置</string>
+    <string name="sezhiwifixiazaishiping_str">您设置了只在wifi下才能下载视频，此时为移动数据网络，不可下载。您可以通过我的设置去修改设置</string>
+    <string name="study_str">学习</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="tongzhigonggao_str">通知公告</string>
+    <string name="tuisonggerenxx_str">推送个人消息 </string>
+    <string name="wancheng_str">完成</string>
+    <string name="wanjiekecheng_str">完结课程</string>
+    <string name="wexiaoxi_str">我的消息 </string>
+    <string name="wifixiazaishiping_str">仅wifi环境下载视频</string>
+    <string name="xiaoxizhongxin_str">消息中心</string>
+    <string name="yixiazai_str">已下载</string>
+    <string name="zaixuekecheng_str">在学课程</string>
+    <string name="zhanghaobeisuoding_str">该账号被锁定，请四小时后再登录</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="ProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">8dip</item>
+        <item name="android:minHeight">6dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/progressbar_mini</item>
+    </style>
+    <style name="content_textview">
+        <item name="android:lineSpacingExtra">0.5dip</item>
+        <item name="android:textScaleX">1.0</item>
+    </style>
+</resources>

@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\typetotalcourse_item.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\typetotalcourse_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_study1.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_study1.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\activity_downedmanager.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\activity_downedmanager.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\xiaoxizhongxi_item.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\xiaoxizhongxi_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dagang.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_dagang.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tongzhigonggao.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_tongzhigonggao.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\downloading.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\downloading.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\include_coursetype.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\include_coursetype.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\activity_web.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\activity_go_study.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\activity_go_study.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_course.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\el_content.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\el_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\controler1.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\controler1.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_my.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_my.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\widget_tab_item.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\widget_tab_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\widget_progress_bar.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\widget_progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\activity_xiaoxizhongxi.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\activity_xiaoxizhongxi.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\xiazai_item.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\xiazai_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_zuoye.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_zuoye.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\viewpaper.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\viewpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\activity_course_details.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\activity_course_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_download.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_wanjiecourse.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_wanjiecourse.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\zuoye_item.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\zuoye_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_zaixuecourse.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_zaixuecourse.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\el_type.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\el_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\downded_xq_item.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\downded_xq_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gerenxinxin.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\activity_gerenxinxin.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\chunchukongjian.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\chunchukongjian.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\widget_title_bar.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\widget_title_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\progressdialog.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\progressdialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\activity_typetotalcourse.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\activity_typetotalcourse.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\include_course_content.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\include_course_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\testlist.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\testlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\activity_downloadingmanager.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\activity_downloadingmanager.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\downloading_item.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\downloading_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mulu.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_mulu.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\widget_viewpaper.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\widget_viewpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\include_course_button.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\include_course_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\videoview.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\videoview.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\controler.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\controler.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\course_list_item.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\course_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\widget_my_tab.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\widget_my_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\avtivity_setting.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\avtivity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_study.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_study.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_wodetongzhi.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_wodetongzhi.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\extral.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\extral.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_course1.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\fragment_course1.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\zhishijigguo_item.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\zhishijigguo_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\downded_item.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\downded_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\build\\intermediates\\res\\merged\\debug\\layout\\study_list_item.xml",
+        "source": "C:\\Users\\zhenghg\\Desktop\\studioworkspace\\TradeDistance\\res\\layout\\study_list_item.xml"
+    }
+]

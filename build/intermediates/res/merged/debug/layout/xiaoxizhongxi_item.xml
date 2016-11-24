@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/weidu_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/dot_red_01" />
+
+        <TextView
+            android:id="@+id/content_tv"
+            style="@style/content_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size16"
+            android:text="这两天关于林心如与霍建华婚礼方面的消息一直霸着娱乐版的头条，不管是一对新人还是那些参加这场婚礼的明星们似乎都从中获得了不少的关注度，其中可能最受关注的莫过于" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/riqi_tv"
+        style="@style/content_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lly"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/xxzx_riqi_color"
+        android:textSize="@dimen/size14"
+        android:text="2016-06-03" />
+
+</RelativeLayout>

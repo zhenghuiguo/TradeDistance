@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:td="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/course_fragment_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:background="@drawable/my_bg" >
+
+            <ImageView
+                android:id="@+id/setting_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/setting" />
+
+            <RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/head_iv"
+                    android:layout_width="100dp"
+                    android:layout_height="160dp"
+                    android:layout_centerHorizontal="true"
+                     />
+
+                <TextView
+                    android:id="@+id/name_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/head_iv"
+                    android:layout_marginTop="20dp"
+                    android:textSize="@dimen/size18"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/bianhao_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name_tv"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size14"
+                    android:text="" />
+            </RelativeLayout>
+        </RelativeLayout>
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+          
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <com.td.tradedistance.app.widget.MyTabView
+                android:id="@+id/tab1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                td:textstr="@string/myshoucang_str" />
+
+            <com.td.tradedistance.app.widget.MyTabView
+                 android:id="@+id/tab2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                td:textstr="@string/xiaoxizhongxin_str" />
+
+            <com.td.tradedistance.app.widget.MyTabView
+                android:id="@+id/tab3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                td:textstr="@string/kaoshiyuyue_str" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <com.td.tradedistance.app.widget.MyTabView
+                 android:id="@+id/tab4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                td:textstr="@string/kaoshichaxun_str"
+               />
+
+            <com.td.tradedistance.app.widget.MyTabView
+                android:id="@+id/tab5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                td:textstr="@string/mychengji_str"
+                />
+
+            <com.td.tradedistance.app.widget.MyTabView
+                android:id="@+id/tab6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                td:textstr="@string/mychengji_str" />
+        </LinearLayout>
+          
+      </LinearLayout>
+       
+    </LinearLayout>
+
+</ScrollView>

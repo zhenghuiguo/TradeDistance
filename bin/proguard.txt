@@ -1,0 +1,132 @@
+# view res/layout/fragment_study.xml #generated:71
+# view res/layout/widget_viewpaper.xml #generated:6
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:198
+-keep class cn.jpush.android.service.AlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:164
+-keep class cn.jpush.android.service.DaemonService { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class cn.jpush.android.service.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:176
+-keep class cn.jpush.android.service.PushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class cn.jpush.android.service.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class cn.jpush.android.ui.PopWinActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class cn.jpush.android.ui.PushActivity { <init>(...); }
+
+# view res/layout/fragment_study.xml #generated:66
+-keep class com.example.kyindicatortest.kyindicator { <init>(...); }
+
+# view AndroidManifest.xml #generated:201
+-keep class com.td.tradedistance.app.Receiver.JPushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.td.tradedistance.app.TDApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.td.tradedistance.app.activity.CourseDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.td.tradedistance.app.activity.DownLoadingManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.td.tradedistance.app.activity.DownedManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.td.tradedistance.app.activity.DownedManagerXQActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.td.tradedistance.app.activity.GeRenXinXinActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.td.tradedistance.app.activity.GoStudyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.td.tradedistance.app.activity.KaoShiWebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.td.tradedistance.app.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.td.tradedistance.app.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.td.tradedistance.app.activity.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.td.tradedistance.app.activity.TestListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.td.tradedistance.app.activity.TypeTotalCourseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.td.tradedistance.app.activity.VideoPlayerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:102
+-keep class com.td.tradedistance.app.activity.WebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.td.tradedistance.app.activity.WebKaoShiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.td.tradedistance.app.activity.WelcomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.td.tradedistance.app.activity.XiaoXiZhongXiActivity { <init>(...); }
+
+# view res/layout/fragment_my.xml #generated:109
+# view res/layout/fragment_my.xml #generated:118
+# view res/layout/fragment_my.xml #generated:127
+# view res/layout/fragment_my.xml #generated:78
+# view res/layout/fragment_my.xml #generated:86
+# view res/layout/fragment_my.xml #generated:94
+-keep class com.td.tradedistance.app.widget.MyTabView { <init>(...); }
+
+# view res/layout/activity_web.xml #generated:29
+# view res/layout/fragment_zaixuecourse.xml #generated:29
+# view res/layout/widget_viewpaper.xml #generated:36
+-keep class com.td.tradedistance.app.widget.ProgressBarView { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:29
+# view res/layout/activity_main.xml #generated:39
+# view res/layout/activity_main.xml #generated:49
+# view res/layout/activity_main.xml #generated:59
+-keep class com.td.tradedistance.app.widget.TabItem { <init>(...); }
+
+# view res/layout/activity_course_details.xml #generated:9
+# view res/layout/activity_downedmanager.xml #generated:9
+# view res/layout/activity_downloadingmanager.xml #generated:9
+# view res/layout/activity_gerenxinxin.xml #generated:14
+# view res/layout/activity_main.xml #generated:7
+# view res/layout/activity_typetotalcourse.xml #generated:9
+# view res/layout/activity_web.xml #generated:8
+# view res/layout/activity_xiaoxizhongxi.xml #generated:9
+# view res/layout/avtivity_setting.xml #generated:10
+# view res/layout/fragment_course1.xml #generated:9
+# view res/layout/fragment_study.xml #generated:9
+-keep class com.td.tradedistance.app.widget.TitleBar { <init>(...); }
+
+# view res/layout/videoview.xml #generated:7
+-keep class com.td.tradedistance.app.widget.VideoView { <init>(...); }
+
+# view res/layout/fragment_course.xml #generated:28
+-keep class com.td.tradedistance.app.widget.ViewPaperIndicator { <init>(...); }
+
+# view res/layout/activity_course_details.xml #generated:182
+# view res/layout/fragment_course.xml #generated:33
+# view res/layout/fragment_course1.xml #generated:16
+# view res/layout/fragment_download.xml #generated:57
+# view res/layout/fragment_tongzhigonggao.xml #generated:21
+# view res/layout/fragment_wanjiecourse.xml #generated:21
+# view res/layout/fragment_wodetongzhi.xml #generated:21
+-keep class com.td.tradedistance.app.widget.WholeListView { <init>(...); }
+

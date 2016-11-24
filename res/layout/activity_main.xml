@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:td="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/course_fragment_bg"
+     >
+  <com.td.tradedistance.app.widget.TitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        td:titleBarRightImage="@drawable/news_top"
+        td:titleBarTitle="@string/course_str" />
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_above="@+id/lly"
+        android:layout_below="@+id/titleBar"
+        />
+
+    <LinearLayout
+        android:id="@+id/lly"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_vertical" >
+
+        <com.td.tradedistance.app.widget.TabItem
+            android:id="@+id/course_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            td:tab_image_bg="@drawable/bottom_curriculum_gray"
+            td:name_text_string="@string/course_str"
+            td:name_text_size="@dimen/size16"
+            android:layout_weight="1" >
+        </com.td.tradedistance.app.widget.TabItem>
+
+        <com.td.tradedistance.app.widget.TabItem
+            android:id="@+id/study_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            td:tab_image_bg="@drawable/bottom_study_gray"
+            td:name_text_string="@string/study_str"
+            td:name_text_size="@dimen/size14"
+            android:layout_weight="1" >
+        </com.td.tradedistance.app.widget.TabItem>
+
+        <com.td.tradedistance.app.widget.TabItem
+            android:id="@+id/download_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            td:tab_image_bg="@drawable/bottom_download_gray"
+            td:name_text_string="@string/download_str"
+            td:name_text_size="@dimen/size14"
+            android:layout_weight="1" >
+        </com.td.tradedistance.app.widget.TabItem>
+
+        <com.td.tradedistance.app.widget.TabItem
+            android:id="@+id/my_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            td:tab_image_bg="@drawable/bottom_my_gray"
+            td:name_text_string="@string/my_str"
+            td:name_text_size="@dimen/size14"
+            android:layout_weight="1" >
+        </com.td.tradedistance.app.widget.TabItem>
+         
+         
+
+    </LinearLayout>
+
+</RelativeLayout>

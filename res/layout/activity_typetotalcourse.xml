@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:td="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/course_fragment_bg"
+    android:orientation="vertical" >
+
+    <com.td.tradedistance.app.widget.TitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        td:titleBarLeftImage="@drawable/return_top"
+         />
+
+    <ListView
+        android:id="@+id/typetotalcourselist_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/divider_color"
+        android:dividerHeight="1dp"
+        android:listSelector="@color/transparent" />
+
+</LinearLayout>

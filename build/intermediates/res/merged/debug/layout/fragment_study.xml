@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:td="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/course_fragment_bg"
+    android:orientation="vertical" >
+
+    <com.td.tradedistance.app.widget.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        td:titleBarRightImage="@drawable/news_top"
+        td:titleBarTitle="@string/study_str" />
+  <LinearLayout
+        android:id="@+id/lly"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+         >
+
+        <RelativeLayout
+            android:id="@+id/zaixue_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/zxcolor_tv"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/tv_tab_selected" />
+
+            <TextView
+                android:id="@+id/zx_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/zaixuekecheng_str"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wanjie_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/tab_grey" >
+
+            <TextView
+                android:id="@+id/wj_color_tv"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/tv_tab_selected" />
+
+            <TextView
+                android:id="@+id/wj_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/wanjiekecheng_str"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.example.kyindicatortest.kyindicator
+        android:id="@+id/kyindicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
